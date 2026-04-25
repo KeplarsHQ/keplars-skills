@@ -7,7 +7,7 @@ Agents load this skill and generate correct Keplars integration code on the firs
 ## Install
 
 ```bash
-npx skills add KeplarsHQ/skills
+npx skills add KeplarsHQ/keplars-skills
 ```
 
 This installs the skill into your agent's config directory automatically:
