@@ -32,7 +32,7 @@ Configure a webhook URL in the Keplars dashboard. Keplars sends a `POST` request
 
 ## Signature Verification
 
-Every webhook request includes an `X-Keplars-Signature` header — an HMAC-SHA256 signature of the raw request body, signed with your webhook secret (found in the dashboard, separate from your API key).
+Every webhook request includes an `X-Keplars-Signature` header - an HMAC-SHA256 signature of the raw request body, signed with your webhook secret (found in the dashboard, separate from your API key).
 
 **Node.js:**
 ```js

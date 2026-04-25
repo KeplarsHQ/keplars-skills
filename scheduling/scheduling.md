@@ -1,6 +1,6 @@
 # Scheduling
 
-Use `POST /send-email/schedule` to deliver an email at a future time. Works with both raw email and template email body shapes — just add the scheduling fields.
+Use `POST /send-email/schedule` to deliver an email at a future time. Works with both raw email and template email body shapes - just add the scheduling fields.
 
 ```json
 {

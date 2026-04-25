@@ -1,4 +1,4 @@
-# Template Email — Request Body
+# Template Email - Request Body
 
 Use this shape when sending via a saved template. Templates are created in the Keplars dashboard or via the Template Engine API.
 

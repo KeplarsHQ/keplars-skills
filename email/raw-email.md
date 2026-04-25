@@ -1,4 +1,4 @@
-# Raw Email — Request Body
+# Raw Email - Request Body
 
 Use this shape when sending email with an inline subject and body (not a template).
 

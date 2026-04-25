@@ -32,4 +32,4 @@
 | 400 | `INVALID_SCHEDULE_TIME` | `scheduled_at` is in the past or exceeds 365 days |
 | 429 | `RATE_LIMITED` | Plan email quota reached for this billing period |
 | 403 | `PLAN_REQUIRED` | Feature requires LAUNCH plan or higher |
-| 500 | `INTERNAL_ERROR` | Unexpected server error — retry with exponential backoff |
+| 500 | `INTERNAL_ERROR` | Unexpected server error - retry with exponential backoff |

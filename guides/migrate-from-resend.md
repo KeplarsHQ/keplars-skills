@@ -17,7 +17,7 @@ Migration is a two-step change: rename one field and swap the endpoint URL. Ever
 
 ## Endpoint Mapping
 
-Resend has one endpoint. Keplars has five — pick based on urgency:
+Resend has one endpoint. Keplars has five - pick based on urgency:
 
 | Use case | Resend | Keplars |
 |---|---|---|
@@ -109,4 +109,4 @@ If you're using Resend webhooks, update your handler:
 | `email.clicked` | `email.clicked` |
 | `email.bounced` | `email.bounced` |
 
-Signature verification moves from Resend's `svix` library to Keplars' HMAC-SHA256 — see [webhooks](../webhooks/webhooks.md).
+Signature verification moves from Resend's `svix` library to Keplars' HMAC-SHA256 - see [webhooks](../webhooks/webhooks.md).

@@ -114,7 +114,7 @@ body: JSON.stringify({
 })
 ```
 
-Note: Postmark template IDs are integers. Keplars template IDs are UUIDs — copy them from the Keplars dashboard.
+Note: Postmark template IDs are integers. Keplars template IDs are UUIDs - copy them from the Keplars dashboard.
 
 ## Webhooks
 

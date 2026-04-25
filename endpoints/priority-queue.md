@@ -1,4 +1,4 @@
-# Priority Queue — Endpoint Selection
+# Priority Queue - Endpoint Selection
 
 Pick the endpoint that matches the real-time urgency of the email. Do not use `/instant` for everything.
 

@@ -9,7 +9,7 @@ tags: [email, api, transactional, smtp, webhooks]
 
 # Keplars
 
-Keplars is a priority-queue email API that routes messages through instant, high, normal, bulk, and scheduled tiers — each with different delivery SLAs.
+Keplars is a priority-queue email API that routes messages through instant, high, normal, bulk, and scheduled tiers - each with different delivery SLAs.
 
 **Base URL**: `https://api.keplars.com/api/v1`
 **Auth**: `Authorization: Bearer $KEPLARS_API_KEY`

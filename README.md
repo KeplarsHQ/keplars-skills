@@ -1,6 +1,6 @@
 # Keplars Skills
 
-Context file for AI coding agents (Claude Code, Cursor, Windsurf, Codex, Antigravity) that teaches them the Keplars API — endpoint selection, request shapes, template usage, scheduling, webhooks, and error handling.
+Context file for AI coding agents (Claude Code, Cursor, Windsurf, Codex, Antigravity) that teaches them the Keplars API - endpoint selection, request shapes, template usage, scheduling, webhooks, and error handling.
 
 Agents load this skill and generate correct Keplars integration code on the first try, without hallucinating endpoint paths or wrong field names.
 
@@ -21,13 +21,13 @@ This installs the skill into your agent's config directory automatically:
 
 ## What the skill teaches
 
-- **Priority queue selection** — which of the 5 endpoints to use (`/instant`, `/high`, `/async`, `/bulk`, `/schedule`) and when
-- **Raw email body** — all fields, types, required vs optional, and when `from` becomes required
-- **Template emails** — `template_id` + `params` shape, Handlebars variable syntax, what NOT to include
-- **Scheduling** — date format, timezone (IANA), constraints, cancel and list endpoints
-- **Response shapes** — success and error JSON with all error codes
-- **Webhooks** — full event list, payload shape, HMAC-SHA256 signature verification
-- **Common mistakes** — the 4 things agents most often get wrong without this skill
+- **Priority queue selection** - which of the 5 endpoints to use (`/instant`, `/high`, `/async`, `/bulk`, `/schedule`) and when
+- **Raw email body** - all fields, types, required vs optional, and when `from` becomes required
+- **Template emails** - `template_id` + `params` shape, Handlebars variable syntax, what NOT to include
+- **Scheduling** - date format, timezone (IANA), constraints, cancel and list endpoints
+- **Response shapes** - success and error JSON with all error codes
+- **Webhooks** - full event list, payload shape, HMAC-SHA256 signature verification
+- **Common mistakes** - the 4 things agents most often get wrong without this skill
 
 ## Usage
 
@@ -53,6 +53,7 @@ No API keys, no secrets, no internal architecture. You supply your own `KEPLARS_
 
 ## Links
 
+- [Keplars](https://keplars.com)
 - [Keplars Dashboard](https://dash.keplars.com)
 - [API Documentation](https://docs.keplars.com)
 - [skills.sh marketplace](https://skills.sh)

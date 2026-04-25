@@ -115,4 +115,4 @@ body: JSON.stringify({
 | `failed` (temporary) | `email.failed` |
 | `complained` | `email.bounced` |
 
-Mailgun signs webhooks with HMAC-SHA256 — Keplars does too. Swap the secret and update the header name from `X-Mailgun-Signature-V2` to `X-Keplars-Signature`. See [webhooks](../webhooks/webhooks.md).
+Mailgun signs webhooks with HMAC-SHA256 - Keplars does too. Swap the secret and update the header name from `X-Mailgun-Signature-V2` to `X-Keplars-Signature`. See [webhooks](../webhooks/webhooks.md).
